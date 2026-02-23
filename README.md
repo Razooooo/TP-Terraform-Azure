@@ -1,24 +1,3 @@
-<<<<<<< HEAD
-# Compte-rendu TP : Infrastructure Azure avec Terraform
-
-## 1. Description du projet
-Déploiement d'une architecture en haute disponibilité composée de deux machines virtuelles Ubuntu derrière un Azure Load Balancer.
-
-## 2. Détails du déploiement
-* **Région :** Switzerland North.
-* **Nombre de ressources créées :** 9 ressources au total (VNet, Subnet, NICs, VMs, Load Balancer, etc.).
-* **IP Publique du Load Balancer :** 172.161.75.231.
-
-## 3. État de l'infrastructure
-L'infrastructure est actuellement stable et "idempotente". Une nouvelle exécution de Terraform confirme qu'aucun changement n'est nécessaire (0 added, 0 changed, 0 destroyed).
-
-## 4. Problèmes résolus
-* Correction d'une erreur d'output qui tentait de pointer vers une IP de VM inexistante au lieu de l'IP du Load Balancer.
-
-=======
->>>>>>> 0833204d832c96d816ddf4474192e698306f11dd
-# TP Noté : Déploiement d'une infrastructure Haute Disponibilité sur Azure
-
 **Nom :** Razooooo  
 **Environnement :** Azure Cloud Shell / Terraform  
 **Région :** Switzerland North
@@ -50,9 +29,6 @@ Une seconde exécution de `terraform apply` confirme l'idempotence de la configu
 * **Authentification** : Utilisation de l'Azure CLI (`az login`) pour l'accès aux ressources.
 
 ## 5. Guide de nettoyage
-Pour supprimer l'intégralité des ressources créées et éviter les coûts inutiles :
-```bash
-terraform destroy
 Pour supprimer l'intégralité des ressources créées et éviter les coûts inutiles :
 ```bash
 terraform destroy
