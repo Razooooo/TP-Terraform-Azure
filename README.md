@@ -31,6 +31,9 @@ Une seconde exécution de `terraform apply` confirme l'idempotence de la configu
 ## 5. screen
 <img width="1623" height="247" alt="image" src="https://github.com/user-attachments/assets/0dc9c641-de7e-42ea-8a96-d5c062e4ab66" />
 
+<img width="1335" height="683" alt="image" src="https://github.com/user-attachments/assets/ddd84b86-2390-48af-912f-d38ab813f378" />
+
+
 ## 6. Guide de nettoyage
 Pour supprimer l'intégralité des ressources créées et éviter les coûts inutiles :
 ```bash
