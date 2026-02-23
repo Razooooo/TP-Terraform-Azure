@@ -7,7 +7,7 @@
 * **Compute** : Deux instances de VM (`Standard_B1s`) avec installation automatisée de Nginx via `custom_data`.
 * **Load Balancer** : Un LB de type Standard avec IP statique pour distribuer le trafic sur le port 80.
 
-## 3. Preuves de succès et validation
+Preuves de succès et validation
 
 ### Déploiement réussi
 Le déploiement s'est terminé avec succès avec la création de 9 ressources.
@@ -16,12 +16,12 @@ Le déploiement s'est terminé avec succès avec la création de 9 ressources.
 ### Idempotence
 Une seconde exécution de `terraform apply` confirme l'idempotence de la configuration : **0 added, 0 changed, 0 destroyed**.
 
-## 4. Concepts validés
+Concepts validés
 * **Cycle de vie** : Utilisation de `init`, `plan`, `apply` et prochainement `destroy`.
 * **Fichiers d'état** : Gestion via le fichier `terraform.tfstate` pour le suivi des ressources.
 * **Authentification** : Utilisation de l'Azure CLI (`az login`) pour l'accès aux ressources.
 
-## 5. screen
+screen
 
 Screen du load balancer qui fonctionne grace à la commande "curl http://20.203.145.223" l'IP public qui est celle du load balancer
 <img width="1623" height="247" alt="image" src="https://github.com/user-attachments/assets/0dc9c641-de7e-42ea-8a96-d5c062e4ab66" />
@@ -35,9 +35,6 @@ Commande terraform apply:
 <img width="1443" height="263" alt="image" src="https://github.com/user-attachments/assets/362b51fb-de17-468e-bfb9-49b08f5cc7c2" />
 Commmande terraform destroy:
 
-
-
-## 6. Guide de nettoyage
 Pour supprimer l'intégralité des ressources créées et éviter les coûts inutiles :
 ```bash
 terraform destroy
