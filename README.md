@@ -29,6 +29,8 @@ Une seconde exécution de `terraform apply` confirme l'idempotence de la configu
 * **Authentification** : Utilisation de l'Azure CLI (`az login`) pour l'accès aux ressources.
 
 ## 5. screen
+
+Screen du load balancer qui fonctionne grace à la commande "curl http://20.203.145.223" l'IP public qui est celle du load balancer
 <img width="1623" height="247" alt="image" src="https://github.com/user-attachments/assets/0dc9c641-de7e-42ea-8a96-d5c062e4ab66" />
 
 <img width="1335" height="683" alt="image" src="https://github.com/user-attachments/assets/ddd84b86-2390-48af-912f-d38ab813f378" />
