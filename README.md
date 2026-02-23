@@ -34,6 +34,5 @@ Commande terraform plan:
 Commande terraform apply:
 <img width="1443" height="263" alt="image" src="https://github.com/user-attachments/assets/362b51fb-de17-468e-bfb9-49b08f5cc7c2" />
 Commmande terraform destroy:
-
-Pour supprimer l'intégralité des ressources créées et éviter les coûts inutiles :
-```bash
+<img width="1405" height="125" alt="image" src="https://github.com/user-attachments/assets/906bb5ae-edd2-47fb-83f2-1c696ef95d82" />
+<img width="460" height="90" alt="image" src="https://github.com/user-attachments/assets/7cfa8c9b-8b54-44e4-a1d7-c39d68eddec6" />
