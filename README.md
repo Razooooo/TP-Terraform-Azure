@@ -32,6 +32,14 @@ Une seconde exécution de `terraform apply` confirme l'idempotence de la configu
 <img width="1623" height="247" alt="image" src="https://github.com/user-attachments/assets/0dc9c641-de7e-42ea-8a96-d5c062e4ab66" />
 
 <img width="1335" height="683" alt="image" src="https://github.com/user-attachments/assets/ddd84b86-2390-48af-912f-d38ab813f378" />
+<img width="687" height="291" alt="image" src="https://github.com/user-attachments/assets/a31bca38-0d91-4c1c-afe7-489ccdcca732" />
+
+Commande terraform plan:
+<img width="1141" height="91" alt="image" src="https://github.com/user-attachments/assets/517c10cc-5fa8-426c-8cfb-080d624f655c" />
+Commande terraform apply:
+<img width="1443" height="263" alt="image" src="https://github.com/user-attachments/assets/362b51fb-de17-468e-bfb9-49b08f5cc7c2" />
+Commmande terraform destroy:
+
 
 
 ## 6. Guide de nettoyage
