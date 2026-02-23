@@ -10,7 +10,7 @@ L'objectif de ce TP est de mettre en place une infrastructure Web résiliente co
 ## 2. Architecture Technique
 L'infrastructure a été déployée en respectant les principes de l'Infrastructure as Code (IaC) :
 
-* **Resource Group** : `${var.prefix}-rg`.
+* **Resource Group** : `tp-azure-rg`.
 * **Réseau** : Un VNet (`10.0.0.0/16`) et un subnet (`10.0.1.0/24`).
 * **Sécurité** : Un Network Security Group (NSG) autorisant les flux SSH (22) et HTTP (80).
 * **Compute** : Deux instances de VM (`Standard_B1s`) avec installation automatisée de Nginx via `custom_data`.
@@ -20,7 +20,7 @@ L'infrastructure a été déployée en respectant les principes de l'Infrastruct
 
 ### Déploiement réussi
 Le déploiement s'est terminé avec succès avec la création de 9 ressources.
-* **IP Publique du Load Balancer :** `172.161.75.231`.
+* **IP Publique du Load Balancer :** `20.203.145.223`.
 
 ### Idempotence
 Une seconde exécution de `terraform apply` confirme l'idempotence de la configuration : **0 added, 0 changed, 0 destroyed**.
