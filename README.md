@@ -28,10 +28,10 @@ Une seconde exécution de `terraform apply` confirme l'idempotence de la configu
 * **Fichiers d'état** : Gestion via le fichier `terraform.tfstate` pour le suivi des ressources.
 * **Authentification** : Utilisation de l'Azure CLI (`az login`) pour l'accès aux ressources.
 
-## 5. Guide de nettoyage
+## 5. screen
+<img width="1623" height="247" alt="image" src="https://github.com/user-attachments/assets/0dc9c641-de7e-42ea-8a96-d5c062e4ab66" />
+
+## 6. Guide de nettoyage
 Pour supprimer l'intégralité des ressources créées et éviter les coûts inutiles :
 ```bash
 terraform destroy
-
-## 6. Screen
-<img width="1623" height="247" alt="image" src="https://github.com/user-attachments/assets/3776b17c-7be8-4165-b362-21c4a9dad3e1" />
