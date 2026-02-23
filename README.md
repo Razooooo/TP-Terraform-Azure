@@ -27,7 +27,7 @@ Screen du load balancer qui fonctionne grace à la commande "curl http://20.203.
 <img width="1623" height="247" alt="image" src="https://github.com/user-attachments/assets/0dc9c641-de7e-42ea-8a96-d5c062e4ab66" />
 Ressource groupe dans azure:
 <img width="1335" height="683" alt="image" src="https://github.com/user-attachments/assets/ddd84b86-2390-48af-912f-d38ab813f378" />
-Commande terraform init
+Commande terraform init:
 <img width="687" height="291" alt="image" src="https://github.com/user-attachments/assets/a31bca38-0d91-4c1c-afe7-489ccdcca732" />
 Commande terraform plan:
 <img width="1141" height="91" alt="image" src="https://github.com/user-attachments/assets/517c10cc-5fa8-426c-8cfb-080d624f655c" />
