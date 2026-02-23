@@ -32,3 +32,6 @@ Une seconde exécution de `terraform apply` confirme l'idempotence de la configu
 Pour supprimer l'intégralité des ressources créées et éviter les coûts inutiles :
 ```bash
 terraform destroy
+
+## 6. Screen
+<img width="1623" height="247" alt="image" src="https://github.com/user-attachments/assets/3776b17c-7be8-4165-b362-21c4a9dad3e1" />
