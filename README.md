@@ -1,12 +1,5 @@
-**Nom :** Razooooo  
 **Environnement :** Azure Cloud Shell / Terraform  
 **Région :** Switzerland North
-
-## 1. Objectifs du projet
-L'objectif de ce TP est de mettre en place une infrastructure Web résiliente composée de deux machines virtuelles Ubuntu exécutant Nginx, réparties derrière un Azure Load Balancer.
-
-## 2. Architecture Technique
-L'infrastructure a été déployée en respectant les principes de l'Infrastructure as Code (IaC) :
 
 * **Resource Group** : `tp-azure-rg`.
 * **Réseau** : Un VNet (`10.0.0.0/16`) et un subnet (`10.0.1.0/24`).
