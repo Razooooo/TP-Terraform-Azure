@@ -1,4 +1,9 @@
-variable "vm_size" {
+variable "location" {
   type    = string
-  default = "Standard_B1s"
+  default = "Switzerland North"
+}
+
+variable "prefix" {
+  type    = string
+  default = "tp-azure"
 }
